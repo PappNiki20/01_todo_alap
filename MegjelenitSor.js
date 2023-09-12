@@ -23,7 +23,7 @@ class Megjelenitsor {
         this.#esemenyTrigger("torol")
 });
 this.megseElem.on("click", ()=>{
-    
+    this.sorElem.css("background-color", "white")
     this.pipaElem.show()
     this.megseElem.hide()
 });
