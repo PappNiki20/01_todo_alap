@@ -1,6 +1,20 @@
+import { TODOLIST2 } from "../adatok.js"
 class Modell{
-    constructor(){
+    #lista
+    constructor(lista){
+this.#lista = TODOLIST2
+    }
+    ujADAT(OBJ){
+        this.#lista.push(OBJ)
+    }
+    getList(){
+        return this.#lista
+    }
+    kesz(){
 
+    }
+    torol(){
+        
     }
 }
 export default Modell
