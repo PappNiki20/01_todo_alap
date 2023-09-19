@@ -8,7 +8,7 @@ class Megjelenitsor {
         this.pipaElem = this.sorElem.children("td").children(".kesz")
         this.megseElem = this.sorElem.children("td").children(".megse").hide()
         this.torolElem = this.sorElem.children("td").children(".torol")
-        console.log(this.pipaElem)
+        //console.log(this.pipaElem)
 
         this.pipaElem.on("click", ()=>{
             console.log(this)

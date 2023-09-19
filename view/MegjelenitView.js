@@ -1,4 +1,4 @@
-import Megjelenitsor from "./MegjelenitSor.js"
+import Megjelenitsor from "./MegjelenitSorView.js"
 class Megjelenites {
     #lista
     #tarolo
